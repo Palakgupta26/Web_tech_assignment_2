@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Shop</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            padding: 0%;
+            font-size: 20px;
+            background-color: whitesmoke;
+        }
+        header>div {
+            padding: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .gallery{
+                flex-basis: 50%;
+                display: grid;
+                gap: 8px;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: 500px;
+                margin: 20px;
+            }
+        .box{
+            background-size: cover;
+            background-position: center;
+            color: whitesmoke;
+            font-size: 45px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><a href="">Featured</a></div>
+        <div></div>
+        <div><a href="">Furniture</a></div>
+        <div></div>
+        <div><a href="">Decor & pillow</a></div>
+        <div></div>
+        <div><a href="">Rugs</a></div>
+        <div></div>
+        <div><a href="">Lighting</a></div>
+    </header>
+    <h1> Bring Home Style     _______________________________________________________________</h1>
+    <div class="gallery">
+        <div class="box" style="background-image: url(bg1.jpg);">
+            <p>25% Off</p>
+            <p>INTERIOR DEFINE</p>
+        </div>
+        <div class="box" style="background-image: url(bg2.jpg);">
+            <p>20% Off</p>
+            <p>THE INSIDE</p>
+        </div>
+        <div class="box" style="background-image: url(bg3.jpg);">
+            <p>15% Off</p>
+            <p>THE CITIZENRY</p>
+        </div>
+    </div>
+</body>
+</html>

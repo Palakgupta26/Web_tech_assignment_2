@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home page</title>
+    <style>
+      body{
+        animation: change 8s infinite ease-in-out;
+      }
+      @keyframes change {
+        0%{
+          background-image: url("img1.jpg");
+        }
+        25%{
+          background-image: url("img2.jpg");
+        }
+        50%{
+          background-image: url("img3.jpg");
+        }
+        75%{
+          background-image: url("img4.jpg");
+        }
+        100%{
+          background-image: url("img1.jpg");
+        }
+      }
+        header {
+            display: flex;
+            padding: 0%;
+            font-size: 20px;
+        }
+        
+        header>div {
+            padding: 20px;
+        }
+        
+        header:hover {
+            background-color: whitesmoke;
+        }
+        
+        a {
+            color: black;
+            font-size: 25px;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        containor {
+            display: block;
+            background-color: whitesmoke;
+            font-size: 50px;
+            width: 400px;
+            height: 420px;
+            margin-top: 90px;
+            margin-left: 100px;
+            text-align: center;
+            border: 0;
+            border-radius: 15px;
+        }
+        
+        containor>div {
+            margin-bottom: 120px;
+        }
+        
+        .link-container {
+            border: solid rgb(29, 49, 49) 2px;
+            border-radius: 30px;
+            width: 200px;
+            margin: 0 auto; 
+        }
+        
+        .link-container a {
+            display: block;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="font-size: 40px;">Interior</div>
+        <div><a href="">Portfolio</a></div>
+        <div><a href="">Blog</a></div>
+        <div><a href="/portfolio" >How it works?</a></div>
+        <div><a href="/shop">Shop</a></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div style=" border: solid rgb(29, 49, 49) 2px; border-radius: 30px; height: 10px;text-align: center; margin-top: 10px;"><a href="/login">Log In</a></div>
+        <div style=" border: solid rgb(29, 49, 49) 2px; border-radius: 30px; height: 10px;text-align: center; margin-top: 10px;"><a href="/signup">Sign Up</a></div>
+    </header>
+    <containor>
+        <div>Stunning interior design services, now within reach.</div>
+        <div class="link-container"><a href="/choice">Know your style</a></div>
+    </containor>
+</body>
+</html>
